@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="180.037" tests="25" failures="0" errors="17">
+   <testsuite name="New Test Suite" tests="25" failures="0" errors="17" time="180.037" timestamp="2020-02-18 14:34:55" hostname="vitaly - laptop-vitaly-rizaev.lan" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/vitaly/git/katalon_1/Reports/20200218_143449/New Test Suite/20200218_143449"/>
+         <property name="logFiles" value="/home/vitaly/git/katalon_1/Reports/20200218_143449/New Test Suite/20200218_143449/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vitaly - laptop-vitaly-rizaev.lan"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="192.168.0.39"/>
+         <property name="sessionId" value="c2e24c71336a651916b088008094e868"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Testing/2_Create, Import/7_Loyalty/create_loyality" time="0.524" classname="Test Cases/Testing/2_Create, Import/7_Loyalty/create_loyality" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:34:55 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/7_Loyalty/create_loyality: Test Cases/Testing/2_Create, Import/7_Loyalty/create_loyality
+
+2020-02-18 14:34:56 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel" time="2.067" classname="Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_pixel.run(create_pixel:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:34:56 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel: Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_pixel.run(create_pixel:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:34:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:34:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:34:57 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:34:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-18 14:34:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:34:58 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:34:56 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel: Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_pixel.run(create_pixel:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment" time="1.011" classname="Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_dynamic_segment.run(create_dynamic_segment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:34:58 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment: Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_dynamic_segment.run(create_dynamic_segment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:34:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:34:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:34:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:34:58 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:34:59 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:34:58 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment: Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_dynamic_segment.run(create_dynamic_segment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment" time="0.87" classname="Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_static_segment.run(create_static_segment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:34:59 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment: Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_static_segment.run(create_static_segment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:34:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:34:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:34:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:34:59 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:00 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:34:59 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment: Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_static_segment.run(create_static_segment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1" time="1.117" classname="Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at import_50_profiles_in_database_1.run(import_50_profiles_in_database_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:35:00 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1: Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at import_50_profiles_in_database_1.run(import_50_profiles_in_database_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:35:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:00 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:01 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:35:00 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1: Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/import_50_profiles_in_database_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at import_50_profiles_in_database_1.run(import_50_profiles_in_database_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1" time="1.044" classname="Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_database_1.run(create_database_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:35:01 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1: Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_database_1.run(create_database_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:35:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:01 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:02 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:35:01 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1: Test Cases/Testing/2_Create, Import/2_Data/2_Profile_Databases/create_database_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_database_1.run(create_database_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list" time="0.867" classname="Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_stop_list.run(create_stop_list:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:35:02 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list: Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_stop_list.run(create_stop_list:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:35:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:02 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:03 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:35:02 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list: Test Cases/Testing/2_Create, Import/2_Data/5_Stop_Lists/create_stop_list FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_stop_list.run(create_stop_list:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/1_Resource/New Test Case" time="0.151" classname="Test Cases/Testing/2_Create, Import/1_Resource/New Test Case" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:35:03 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/1_Resource/New Test Case: Test Cases/Testing/2_Create, Import/1_Resource/New Test Case
+
+2020-02-18 14:35:03 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/1_Resource/Create push resource" time="1.104" classname="Test Cases/Testing/2_Create, Import/1_Resource/Create push resource" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create push resource.run(Create push resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:35:03 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/1_Resource/Create push resource: Test Cases/Testing/2_Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create push resource.run(Create push resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:35:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:03 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:04 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:35:03 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/1_Resource/Create push resource: Test Cases/Testing/2_Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create push resource.run(Create push resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource" time="1.02" classname="Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create SMS resource.run(Create SMS resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:35:04 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource: Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create SMS resource.run(Create SMS resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:35:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:04 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:05 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:35:04 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource: Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create SMS resource.run(Create SMS resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/1_Resource/Create email resource" time="0.807" classname="Test Cases/Testing/2_Create, Import/1_Resource/Create email resource" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/1_Resource/Create email resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create email resource.run(Create email resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:35:05 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/1_Resource/Create email resource: Test Cases/Testing/2_Create, Import/1_Resource/Create email resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create email resource.run(Create email resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:05 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:06 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:35:05 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/1_Resource/Create email resource: Test Cases/Testing/2_Create, Import/1_Resource/Create email resource FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at Create email resource.run(Create email resource:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/4_Triggers/create_trigger_campaign" time="0.144" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/4_Triggers/create_trigger_campaign" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:35:06 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/4_Campaigns/4_Triggers/create_trigger_campaign: Test Cases/Testing/2_Create, Import/4_Campaigns/4_Triggers/create_trigger_campaign
+
+2020-02-18 14:35:06 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_sms" time="32.608" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_sms" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:35:06 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_sms: Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_sms
+
+2020-02-18 14:35:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:35:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:06 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:07 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:35:08 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:35:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input__username'
+
+2020-02-18 14:35:08 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input__username'
+
+2020-02-18 14:35:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input__password'
+
+2020-02-18 14:35:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input__password'
+
+2020-02-18 14:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_' is clicked on
+
+2020-02-18 14:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_' is clicked on
+
+2020-02-18 14:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_AK Dashboard/div_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/a_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/a_' is clicked on
+
+2020-02-18 14:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/a_' is clicked on
+
+2020-02-18 14:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/label_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/label_' is clicked on
+
+2020-02-18 14:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/label_' is clicked on
+
+2020-02-18 14:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_SMS")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_SMS' is clicked on
+
+2020-02-18 14:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_SMS' is clicked on
+
+2020-02-18 14:35:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/select_ EmailSMSPush"), "sms", true): All options with value 'sms' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:35:23 - [MESSAGE][PASSED] - All options with value 'sms' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div__1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div__1' is clicked on
+
+2020-02-18 14:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div__1' is clicked on
+
+2020-02-18 14:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_sms/Page_/div_91 -dropSMS")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_91 -dropSMS' is clicked on
+
+2020-02-18 14:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_91 -dropSMS' is clicked on
+
+2020-02-18 14:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_ _search"), "SMS_resource"): Text 'SMS_resource' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_ _search'
+
+2020-02-18 14:35:26 - [MESSAGE][PASSED] - Text 'SMS_resource' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_ _search'
+
+2020-02-18 14:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_91 - SMS_resourceEmailSMS")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_91 - SMS_resourceEmailSMS' is clicked on
+
+2020-02-18 14:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_91 - SMS_resourceEmailSMS' is clicked on
+
+2020-02-18 14:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_sms/Page_/div_123 - drop")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_123 - drop' is clicked on
+
+2020-02-18 14:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_123 - drop' is clicked on
+
+2020-02-18 14:35:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_  _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_  _search'
+
+2020-02-18 14:35:28 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_  _search'
+
+2020-02-18 14:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_123 - Database_15")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_sms/Page_/div_next_1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_next_1' is clicked on
+
+2020-02-18 14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_next_1' is clicked on
+
+2020-02-18 14:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_ _ui big plus square outline icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_ _prompt"), "SMS_template_1"): Text 'SMS_template_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_ _prompt'
+
+2020-02-18 14:35:31 - [MESSAGE][PASSED] - Text 'SMS_template_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/input_ _prompt'
+
+2020-02-18 14:35:31 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_134 SMS_template_12020-02-17 127 SMS_te_175f7f"), 3): Object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_134 SMS_template_12020-02-17 127 SMS_te_175f7f' is not clickable after 3 second(s)
+
+2020-02-18 14:35:35 - [MESSAGE][WARNING] - Object 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_134 SMS_template_12020-02-17 127 SMS_te_175f7f' is not clickable after 3 second(s)
+
+2020-02-18 14:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_134_ui icon big plus square outline")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_134_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/i_134_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_sms/Page_/div_next_2")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_next_2' is clicked on
+
+2020-02-18 14:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div_next_2' is clicked on
+
+2020-02-18 14:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div__1_2")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div__1_2' is clicked on
+
+2020-02-18 14:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/div__1_2' is clicked on
+
+2020-02-18 14:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/label_    ( )")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/button_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/button_' is clicked on
+
+2020-02-18 14:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_sms/Page_/button_' is clicked on
+
+2020-02-18 14:35:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-18 14:35:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_email" time="34.091" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_email" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:35:39 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_email: Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_email
+
+2020-02-18 14:35:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:35:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:35:39 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:35:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:35:40 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:35:40 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input__username'
+
+2020-02-18 14:35:41 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input__username'
+
+2020-02-18 14:35:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input__password'
+
+2020-02-18 14:35:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input__password'
+
+2020-02-18 14:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_' is clicked on
+
+2020-02-18 14:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_' is clicked on
+
+2020-02-18 14:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_AK Dashboard/div_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/a_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/a_' is clicked on
+
+2020-02-18 14:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/a_' is clicked on
+
+2020-02-18 14:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/label_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/label_' is clicked on
+
+2020-02-18 14:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/label_' is clicked on
+
+2020-02-18 14:35:53 - [TEST_STEP][PASSED] - setText(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/input_ _name"), "Email_regular"): Text 'Email_regular' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_ _name'
+
+2020-02-18 14:35:54 - [MESSAGE][PASSED] - Text 'Email_regular' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_ _name'
+
+2020-02-18 14:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_Email")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_Email' is clicked on
+
+2020-02-18 14:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_Email' is clicked on
+
+2020-02-18 14:35:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/select_ EmailSMSPush"), "email", true): All options with value 'email' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:35:57 - [MESSAGE][PASSED] - All options with value 'email' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div__1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div__1' is clicked on
+
+2020-02-18 14:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div__1' is clicked on
+
+2020-02-18 14:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_     Email")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_     Email' is clicked on
+
+2020-02-18 14:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_     Email' is clicked on
+
+2020-02-18 14:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/input_ _search"), "Email_resource"): Text 'Email_resource' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_ _search'
+
+2020-02-18 14:35:58 - [MESSAGE][PASSED] - Text 'Email_resource' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_ _search'
+
+2020-02-18 14:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_89 - Email_resourceEmailPushSMS")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_89 - Email_resourceEmailPushSMS' is clicked on
+
+2020-02-18 14:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_89 - Email_resourceEmailPushSMS' is clicked on
+
+2020-02-18 14:35:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/select_     SMS_resourceEmail_resourceNew l_6cc698"), "89", true): All options with value '89' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/select_     SMS_resourceEmail_resourceNew l_6cc698'  using regular expression
+
+2020-02-18 14:36:00 - [MESSAGE][PASSED] - All options with value '89' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/select_     SMS_resourceEmail_resourceNew l_6cc698'  using regular expression
+
+2020-02-18 14:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_124 - log1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_124 - log1' is clicked on
+
+2020-02-18 14:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_124 - log1' is clicked on
+
+2020-02-18 14:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/input_  _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_  _search'
+
+2020-02-18 14:36:01 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_  _search'
+
+2020-02-18 14:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_123 - Database_15")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:36:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/select_logDatabase_1"), "123", true): All options with value '123' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/select_logDatabase_1'  using regular expression
+
+2020-02-18 14:36:03 - [MESSAGE][PASSED] - All options with value '123' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/select_logDatabase_1'  using regular expression
+
+2020-02-18 14:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_next_1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_next_1' is clicked on
+
+2020-02-18 14:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_next_1' is clicked on
+
+2020-02-18 14:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/i_ _ui big plus square outline icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/input_ _prompt"), "Email_template_1"): Text 'Email_template_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_ _prompt'
+
+2020-02-18 14:36:06 - [MESSAGE][PASSED] - Text 'Email_template_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/input_ _prompt'
+
+2020-02-18 14:36:06 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_ _ui row"), 3): Object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_ _ui row' is not clickable after 3 second(s)
+
+2020-02-18 14:36:10 - [MESSAGE][WARNING] - Object 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_ _ui row' is not clickable after 3 second(s)
+
+2020-02-18 14:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/i_124_ui icon big plus square outline")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_124_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/i_124_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div_next_2")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_next_2' is clicked on
+
+2020-02-18 14:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div_next_2' is clicked on
+
+2020-02-18 14:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/div__1_2")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div__1_2' is clicked on
+
+2020-02-18 14:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/div__1_2' is clicked on
+
+2020-02-18 14:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/label_    ( )")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_email/Page_/button_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/button_' is clicked on
+
+2020-02-18 14:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_email/Page_/button_' is clicked on
+
+2020-02-18 14:36:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-18 14:36:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_push" time="32.22" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_push" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:36:13 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_push: Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_push
+
+2020-02-18 14:36:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:36:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:36:13 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:36:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:36:14 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:36:14 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input__username'
+
+2020-02-18 14:36:15 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input__username'
+
+2020-02-18 14:36:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input__password'
+
+2020-02-18 14:36:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input__password'
+
+2020-02-18 14:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_' is clicked on
+
+2020-02-18 14:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_' is clicked on
+
+2020-02-18 14:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_AK Dashboard/div_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:36:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/a_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/a_' is clicked on
+
+2020-02-18 14:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/a_' is clicked on
+
+2020-02-18 14:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/label_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/label_' is clicked on
+
+2020-02-18 14:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/label_' is clicked on
+
+2020-02-18 14:36:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _name"), "Push_regular"): Text 'Push_regular' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _name'
+
+2020-02-18 14:36:28 - [MESSAGE][PASSED] - Text 'Push_regular' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _name'
+
+2020-02-18 14:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_push/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_Push")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_Push' is clicked on
+
+2020-02-18 14:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_Push' is clicked on
+
+2020-02-18 14:36:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/select_ EmailSMSPush"), "push", true): All options with value 'push' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:36:31 - [MESSAGE][PASSED] - All options with value 'push' are selected in object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div__1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div__1' is clicked on
+
+2020-02-18 14:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div__1' is clicked on
+
+2020-02-18 14:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_push/Page_/div_94_drop")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_94_drop' is clicked on
+
+2020-02-18 14:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_94_drop' is clicked on
+
+2020-02-18 14:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _search"), "Push_resource"): Text 'Push_resource' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _search'
+
+2020-02-18 14:36:33 - [MESSAGE][PASSED] - Text 'Push_resource' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _search'
+
+2020-02-18 14:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_94 - Push_resourcePush")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_94 - Push_resourcePush' is clicked on
+
+2020-02-18 14:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_94 - Push_resourcePush' is clicked on
+
+2020-02-18 14:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_push/Page_/div_123 -drop")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_123 -drop' is clicked on
+
+2020-02-18 14:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_123 -drop' is clicked on
+
+2020-02-18 14:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_  _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_  _search'
+
+2020-02-18 14:36:35 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_  _search'
+
+2020-02-18 14:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_123 - Database_15")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_push/Page_/div_next1")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_next1' is clicked on
+
+2020-02-18 14:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_next1' is clicked on
+
+2020-02-18 14:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _ui big plus square outline icon")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:36:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _prompt"), "Push_template_1"): Text 'Push_template_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _prompt'
+
+2020-02-18 14:36:38 - [MESSAGE][PASSED] - Text 'Push_template_1' is set on object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/input_ _prompt'
+
+2020-02-18 14:36:38 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_131 Push_template_12020-02-17 122 Push__783c36"), 3): Object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_131 Push_template_12020-02-17 122 Push__783c36' is not clickable after 3 second(s)
+
+2020-02-18 14:36:42 - [MESSAGE][WARNING] - Object 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_131 Push_template_12020-02-17 122 Push__783c36' is not clickable after 3 second(s)
+
+2020-02-18 14:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_131_ui icon big plus square outline")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_131_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/i_131_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Regular/Regular_push/Page_/div_next_2")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_next_2' is clicked on
+
+2020-02-18 14:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div_next_2' is clicked on
+
+2020-02-18 14:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div__1_2")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div__1_2' is clicked on
+
+2020-02-18 14:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/div__1_2' is clicked on
+
+2020-02-18 14:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/label_    ( )")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:36:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/button_")): Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/button_' is clicked on
+
+2020-02-18 14:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Regular/Regular_push/Page_/button_' is clicked on
+
+2020-02-18 14:36:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-18 14:36:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_push_broadcast" time="31.835" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_push_broadcast" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:36:45 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_push_broadcast: Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_push_broadcast
+
+2020-02-18 14:36:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:36:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:36:45 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:36:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:36:46 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:36:46 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input__username'
+
+2020-02-18 14:36:47 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input__username'
+
+2020-02-18 14:36:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input__password'
+
+2020-02-18 14:36:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input__password'
+
+2020-02-18 14:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_' is clicked on
+
+2020-02-18 14:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_' is clicked on
+
+2020-02-18 14:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_AK Dashboard/div_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/a_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/a_' is clicked on
+
+2020-02-18 14:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/a_' is clicked on
+
+2020-02-18 14:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/label_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/label_' is clicked on
+
+2020-02-18 14:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/label_' is clicked on
+
+2020-02-18 14:36:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _name"), "Push_broadcast"): Text 'Push_broadcast' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _name'
+
+2020-02-18 14:37:00 - [MESSAGE][PASSED] - Text 'Push_broadcast' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _name'
+
+2020-02-18 14:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_email/Page_/i_ _dropdown icon"), STOP_ON_FAILURE): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_email/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_email/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_Push")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_Push' is clicked on
+
+2020-02-18 14:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_Push' is clicked on
+
+2020-02-18 14:37:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/select_ EmailSMSPush"), "push", true): All options with value 'push' are selected in object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:37:03 - [MESSAGE][PASSED] - All options with value 'push' are selected in object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div__1")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div__1' is clicked on
+
+2020-02-18 14:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div__1' is clicked on
+
+2020-02-18 14:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_drop_resourcePush")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_drop_resourcePush' is clicked on
+
+2020-02-18 14:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_drop_resourcePush' is clicked on
+
+2020-02-18 14:37:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _search"), "Push_resource"): Text 'Push_resource' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _search'
+
+2020-02-18 14:37:05 - [MESSAGE][PASSED] - Text 'Push_resource' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _search'
+
+2020-02-18 14:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_94 - Push_resourcePush")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_94 - Push_resourcePush' is clicked on
+
+2020-02-18 14:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_94 - Push_resourcePush' is clicked on
+
+2020-02-18 14:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_click- Database_15")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_click- Database_15' is clicked on
+
+2020-02-18 14:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_click- Database_15' is clicked on
+
+2020-02-18 14:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_  _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_  _search'
+
+2020-02-18 14:37:07 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_  _search'
+
+2020-02-18 14:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_123 - Database_15")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_next_1")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_next_1' is clicked on
+
+2020-02-18 14:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_next_1' is clicked on
+
+2020-02-18 14:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_ _ui big plus square outline icon")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _prompt"), "Push_template_1"): Text 'Push_template_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _prompt'
+
+2020-02-18 14:37:10 - [MESSAGE][PASSED] - Text 'Push_template_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/input_ _prompt'
+
+2020-02-18 14:37:10 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_ _ui four wide column"), 3): Object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_ _ui four wide column' is not clickable after 3 second(s)
+
+2020-02-18 14:37:14 - [MESSAGE][WARNING] - Object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_ _ui four wide column' is not clickable after 3 second(s)
+
+2020-02-18 14:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_131_ui icon big plus square outline")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_131_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/i_131_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_next_2")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_next_2' is clicked on
+
+2020-02-18 14:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div_next_2' is clicked on
+
+2020-02-18 14:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div__1_2")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div__1_2' is clicked on
+
+2020-02-18 14:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/div__1_2' is clicked on
+
+2020-02-18 14:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/label_    ( )")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/button_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/button_' is clicked on
+
+2020-02-18 14:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_push/Page_/button_' is clicked on
+
+2020-02-18 14:37:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-18 14:37:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast" time="0.764" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_email_broadcast.run(create_email_broadcast:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:17 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast: Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_email_broadcast.run(create_email_broadcast:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:17 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:18 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:17 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast: Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_email_broadcast.run(create_email_broadcast:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_sms_broadcast" time="31.892" classname="Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_sms_broadcast" status="PASSED">
+         <system-out><![CDATA[2020-02-18 14:37:18 - [TEST_CASE][PASSED] - Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_sms_broadcast: Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_sms_broadcast
+
+2020-02-18 14:37:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:18 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:18 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:37:19 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-02-18 14:37:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input__username'
+
+2020-02-18 14:37:20 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input__username'
+
+2020-02-18 14:37:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input__password'
+
+2020-02-18 14:37:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input__password'
+
+2020-02-18 14:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_' is clicked on
+
+2020-02-18 14:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_' is clicked on
+
+2020-02-18 14:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_AK Dashboard/div_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_AK Dashboard/div_' is clicked on
+
+2020-02-18 14:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_AK Dashboard/a_' is clicked on
+
+2020-02-18 14:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/a_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/a_' is clicked on
+
+2020-02-18 14:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/a_' is clicked on
+
+2020-02-18 14:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/label_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/label_' is clicked on
+
+2020-02-18 14:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/label_' is clicked on
+
+2020-02-18 14:37:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _name"), "SMS_resource"): Text 'SMS_resource' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _name'
+
+2020-02-18 14:37:32 - [MESSAGE][PASSED] - Text 'SMS_resource' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _name'
+
+2020-02-18 14:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _dropdown icon")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _dropdown icon' is clicked on
+
+2020-02-18 14:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_SMS")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_SMS' is clicked on
+
+2020-02-18 14:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_SMS' is clicked on
+
+2020-02-18 14:37:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/select_ EmailSMSPush"), "sms", true): All options with value 'sms' are selected in object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:37:35 - [MESSAGE][PASSED] - All options with value 'sms' are selected in object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/select_ EmailSMSPush'  using regular expression
+
+2020-02-18 14:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div__1")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div__1' is clicked on
+
+2020-02-18 14:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div__1' is clicked on
+
+2020-02-18 14:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_drop_sms")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_drop_sms' is clicked on
+
+2020-02-18 14:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_drop_sms' is clicked on
+
+2020-02-18 14:37:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _search"), "SMS_resource"): Text 'SMS_resource' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _search'
+
+2020-02-18 14:37:37 - [MESSAGE][PASSED] - Text 'SMS_resource' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _search'
+
+2020-02-18 14:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_91 - SMS_resourceEmailSMS")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_91 - SMS_resourceEmailSMS' is clicked on
+
+2020-02-18 14:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_91 - SMS_resourceEmailSMS' is clicked on
+
+2020-02-18 14:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_  _search")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_  _search' is clicked on
+
+2020-02-18 14:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_  _search' is clicked on
+
+2020-02-18 14:37:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_  _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_  _search'
+
+2020-02-18 14:37:40 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_  _search'
+
+2020-02-18 14:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_123 - Database_15")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_123 - Database_15' is clicked on
+
+2020-02-18 14:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_next_1")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_next_1' is clicked on
+
+2020-02-18 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_next_1' is clicked on
+
+2020-02-18 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _ui big plus square outline icon")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_ _ui big plus square outline icon' is clicked on
+
+2020-02-18 14:37:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _prompt"), "SMS_template_1"): Text 'SMS_template_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _prompt'
+
+2020-02-18 14:37:43 - [MESSAGE][PASSED] - Text 'SMS_template_1' is set on object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/input_ _prompt'
+
+2020-02-18 14:37:43 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_ _ui four wide column"), 3): Object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_ _ui four wide column' is not clickable after 3 second(s)
+
+2020-02-18 14:37:46 - [MESSAGE][WARNING] - Object 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_ _ui four wide column' is not clickable after 3 second(s)
+
+2020-02-18 14:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_134_ui icon big plus square outline")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_134_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/i_134_ui icon big plus square outline' is clicked on
+
+2020-02-18 14:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_next_2")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_next_2' is clicked on
+
+2020-02-18 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div_next_2' is clicked on
+
+2020-02-18 14:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div__1_2")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div__1_2' is clicked on
+
+2020-02-18 14:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/div__1_2' is clicked on
+
+2020-02-18 14:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/label_    ( )")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/label_    ( )' is clicked on
+
+2020-02-18 14:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/button_")): Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/button_' is clicked on
+
+2020-02-18 14:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/4_Campaigns/Broadcast/Broadcast_sms/Page_/button_' is clicked on
+
+2020-02-18 14:37:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-18 14:37:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2" time="0.675" classname="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_sms_2.run(create_template_sms_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:50 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_sms_2.run(create_template_sms_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:50 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:50 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:50 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_sms_2.run(create_template_sms_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1" time="0.705" classname="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_push_template_1.run(create_push_template_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:50 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_push_template_1.run(create_push_template_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:50 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:51 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:50 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_push_template_1.run(create_push_template_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1" time="0.705" classname="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_email_1.run(create_template_email_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:51 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_email_1.run(create_template_email_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:51 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:52 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:51 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_email_1.run(create_template_email_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2" time="0.996" classname="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_email_2.run(create_template_email_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:52 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_email_2.run(create_template_email_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:52 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:53 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:52 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_email_2.run(create_template_email_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1" time="0.708" classname="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_sms_1.run(create_template_sms_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:53 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_sms_1.run(create_template_sms_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:53 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:53 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:53 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_template_sms_1.run(create_template_sms_1:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2" time="0.727" classname="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_push_template_2.run(create_push_template_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:53 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_push_template_2.run(create_push_template_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:54 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:54 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:53 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2: Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_push_template_2.run(create_push_template_2:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment" time="0.728" classname="Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_fragment.run(create_fragment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-18 14:37:54 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment: Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_fragment.run(create_fragment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)
+
+
+2020-02-18 14:37:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-18 14:37:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-18 14:37:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-18 14:37:54 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-18 14:37:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-18 14:37:55 - [TEST_STEP][PASSED] - navigateToUrl(Domain): null]]></system-out>
+         <system-err><![CDATA[2020-02-18 14:37:54 - [TEST_CASE][ERROR] - Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment: Test Cases/Testing/2_Create, Import/3_Patterns/2_Fragment/create_fragment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_fragment.run(create_fragment:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-18 14:34:55 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_pixel.run(create_pixel:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-18 14:34:55 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Domain for class: internal.GlobalVariable
+	at create_pixel.run(create_pixel:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1582025689568.run(TempTestSuite1582025689568.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

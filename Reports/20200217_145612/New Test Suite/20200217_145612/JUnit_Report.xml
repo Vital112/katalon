@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="64.612" tests="2" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="1" errors="0" time="64.612" timestamp="2020-02-17 14:56:18" hostname="vitaly - laptop-vitaly-rizaev.lan" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/vitaly/Katalon Studio/katalon/Reports/20200217_145612/New Test Suite/20200217_145612"/>
+         <property name="logFiles" value="/home/vitaly/Katalon Studio/katalon/Reports/20200217_145612/New Test Suite/20200217_145612/execution0.log"/>
+         <property name="attachments" value="/home/vitaly/Katalon Studio/katalon/Reports/20200217_145612/New Test Suite/20200217_145612/1581940626629.png"/>
+         <property name="hostName" value="vitaly - laptop-vitaly-rizaev.lan"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="192.168.0.39"/>
+         <property name="sessionId" value="b8bb2ab6fab8d52c7b2d5bbeeab92bec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Create, Import/1_Resource/Create push resource" time="48.396" classname="Test Cases/Create, Import/1_Resource/Create push resource" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-17 14:56:18 - [TEST_CASE][FAILED] - Test Cases/Create, Import/1_Resource/Create push resource: Test Cases/Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-17 14:56:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-17 14:56:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-17 14:56:19 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-17 14:56:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-17 14:56:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-17 14:56:20 - [TEST_STEP][PASSED] - navigateToUrl(Domain): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-17 14:56:21 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-17 14:56:21 - [TEST_STEP][PASSED] - setText(findTestObject("Create/1_Resource/Resource_push/Page_/input__username"), Login): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/1_Resource/Resource_push/Page_/input__username'
+
+2020-02-17 14:56:22 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/1_Resource/Resource_push/Page_/input__username'
+
+2020-02-17 14:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Create/1_Resource/Resource_push/Page_/div_                                       _a545a9")): Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/div_                                       _a545a9' is clicked on
+
+2020-02-17 14:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/div_                                       _a545a9' is clicked on
+
+2020-02-17 14:56:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Create/1_Resource/Resource_push/Page_/input__password"), Password): Text ****** has been set on object 'Object Repository/Create/1_Resource/Resource_push/Page_/input__password'
+
+2020-02-17 14:56:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/1_Resource/Resource_push/Page_/input__password'
+
+2020-02-17 14:56:23 - [TEST_STEP][PASSED] - click(findTestObject("Create/1_Resource/Resource_push/Page_/div_")): Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/div_' is clicked on
+
+2020-02-17 14:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/div_' is clicked on
+
+2020-02-17 14:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Create/1_Resource/Resource_push/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/1_Resource/Resource_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-17 14:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/1_Resource/Resource_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-17 14:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Create/1_Resource/Resource_push/Page_/a_")): Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/a_' is clicked on
+
+2020-02-17 14:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/a_' is clicked on
+
+2020-02-17 14:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Create/1_Resource/Resource_push/Page_/div_Push")): Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/div_Push' is clicked on
+
+2020-02-17 14:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/1_Resource/Resource_push/Page_/div_Push' is clicked on
+
+2020-02-17 14:56:32 - [TEST_STEP][PASSED] - setText(findTestObject("Create/1_Resource/Resource_push/Page_ -/input_ _name"), "Push_resource"): Text 'Push_resource' is set on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/input_ _name'
+
+2020-02-17 14:56:34 - [MESSAGE][PASSED] - Text 'Push_resource' is set on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/input_ _name'
+
+2020-02-17 14:56:34 - [TEST_STEP][PASSED] - click(findTestObject("Create/1_Resource/Resource_push/Page_ -/div_New Martian databaseDatabase_1New solar_05144d")): Object: 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-17 14:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-17 14:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Create/1_Resource/Resource_push/Page_ -/input_ _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/input_ _search'
+
+2020-02-17 14:56:36 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/input_ _search'
+
+2020-02-17 14:56:36 - [TEST_STEP][FAILED] - click(findTestObject("Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1")): Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579953774055.run(Script1579953774055.groovy:43)
+	... 13 more
+)
+
+2020-02-17 14:57:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1579953774055.run(Script1579953774055.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|/home/vitaly/Katalon Studio/katalon/Reports/20200217_145612/New Test Suite/20200217_145612/1581940626629.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-17 14:56:18 - [TEST_CASE][FAILED] - Test Cases/Create, Import/1_Resource/Create push resource: Test Cases/Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_1" time="15.819" classname="Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_1" status="PASSED">
+         <system-out><![CDATA[2020-02-17 14:57:06 - [TEST_CASE][PASSED] - Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_1: Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_1
+
+2020-02-17 14:57:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-17 14:57:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-17 14:57:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-17 14:57:07 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-17 14:57:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-17 14:57:07 - [TEST_STEP][PASSED] - navigateToUrl(Domain): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-17 14:57:08 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-17 14:57:08 - [TEST_STEP][PASSED] - setText(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/input__username"), Login): Text 'vitaly@vitaly' is set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input__username'
+
+2020-02-17 14:57:08 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input__username'
+
+2020-02-17 14:57:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/input__password"), Password): Text ****** has been set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input__password'
+
+2020-02-17 14:57:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input__password'
+
+2020-02-17 14:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/div_")): Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/div_' is clicked on
+
+2020-02-17 14:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/div_' is clicked on
+
+2020-02-17 14:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_AK Dashboard/div_")): Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_AK Dashboard/div_' is clicked on
+
+2020-02-17 14:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_AK Dashboard/div_' is clicked on
+
+2020-02-17 14:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_AK Dashboard/a_")): Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_AK Dashboard/a_' is clicked on
+
+2020-02-17 14:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_AK Dashboard/a_' is clicked on
+
+2020-02-17 14:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/a_")): Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/a_' is clicked on
+
+2020-02-17 14:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/a_' is clicked on
+
+2020-02-17 14:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/div_Push")): Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/div_Push' is clicked on
+
+2020-02-17 14:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/div_Push' is clicked on
+
+2020-02-17 14:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/input_ _name"), "Push_template_1"): Text 'Push_template_1' is set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input_ _name'
+
+2020-02-17 14:57:21 - [MESSAGE][PASSED] - Text 'Push_template_1' is set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input_ _name'
+
+2020-02-17 14:57:21 - [TEST_STEP][PASSED] - setText(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/input__pushtitle"), "title_1"): Text 'title_1' is set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input__pushtitle'
+
+2020-02-17 14:57:22 - [MESSAGE][PASSED] - Text 'title_1' is set on object 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/input__pushtitle'
+
+2020-02-17 14:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Create/3_Patterns/1_Template/Push_template_1/Page_/button_")): Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/button_' is clicked on
+
+2020-02-17 14:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create/3_Patterns/1_Template/Push_template_1/Page_/button_' is clicked on
+
+2020-02-17 14:57:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-17 14:57:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-17 14:56:18 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-02-17 14:56:18 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Create, Import/1_Resource/Create push resource FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Create/1_Resource/Resource_push/Page_ -/div_123 - Database_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Create push resource.run(Create push resource:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1581940572589.run(TempTestSuite1581940572589.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on LINUX (94ca75a60544f09058a1e6940e33435a)] -> xpath: //div[@id='list_ids']/div/div[2]/div[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'laptop-vitaly-rizaev.lan', ip: '192.168.0.39', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-28-generic', java.version: '1.8.0_242'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.jLU8y2}, goog:chromeOptions: {debuggerAddress: localhost:35891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94ca75a60544f09058a1e6940e33435a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

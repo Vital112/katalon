@@ -1,0 +1,14 @@
+{"testCaseName":"Test Cases/Create, Import/1_Resource/Create email resource","testCaseId":"Test Cases/Create, Import/1_Resource/Create email resource"}
+{"testCaseName":"Test Cases/Create, Import/1_Resource/Create push resource","testCaseId":"Test Cases/Create, Import/1_Resource/Create push resource"}
+{"testCaseName":"Test Cases/Create, Import/1_Resource/Create SMS resource","testCaseId":"Test Cases/Create, Import/1_Resource/Create SMS resource"}
+{"testCaseName":"Test Cases/Create, Import/2_Data/4_Segments/create_dynamic_segment","testCaseId":"Test Cases/Create, Import/2_Data/4_Segments/create_dynamic_segment"}
+{"testCaseName":"Test Cases/Create, Import/2_Data/4_Segments/create_static_segment","testCaseId":"Test Cases/Create, Import/2_Data/4_Segments/create_static_segment"}
+{"testCaseName":"Test Cases/Create, Import/2_Data/5_Stop_Lists/create_stop_list","testCaseId":"Test Cases/Create, Import/2_Data/5_Stop_Lists/create_stop_list"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_sms_2","testCaseId":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_sms_2"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_1","testCaseId":"Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_1"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_email_1","testCaseId":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_email_1"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_email_2","testCaseId":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_email_2"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_sms_1","testCaseId":"Test Cases/Create, Import/3_Patterns/1_Templates/create_template_sms_1"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_2","testCaseId":"Test Cases/Create, Import/3_Patterns/1_Templates/create_push_template_2"}
+{"testCaseName":"Test Cases/Create, Import/3_Patterns/2_Fragment/create_fragment","testCaseId":"Test Cases/Create, Import/3_Patterns/2_Fragment/create_fragment"}
+{"testCaseName":"Test Cases/Create, Import/6_Pixels/create_pixel","testCaseId":"Test Cases/Create, Import/6_Pixels/create_pixel"}

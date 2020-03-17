@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Удаление ресурсов (email, sms, push)</description>
+   <name>4_Delete_all_resource</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ec4f6b8-ed38-43e2-80a3-9b02451af9f8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+{"testCaseName":"Test Cases/Testing/2_Create, Import/1_Resource/Create email resource","testCaseId":"Test Cases/Testing/2_Create, Import/1_Resource/Create email resource"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/1_Resource/Create push resource","testCaseId":"Test Cases/Testing/2_Create, Import/1_Resource/Create push resource"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource","testCaseId":"Test Cases/Testing/2_Create, Import/1_Resource/Create SMS resource"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment","testCaseId":"Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_dynamic_segment"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment","testCaseId":"Test Cases/Testing/2_Create, Import/2_Data/4_Segments/create_static_segment"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2","testCaseId":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_2"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1","testCaseId":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_1"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1","testCaseId":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_1"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2","testCaseId":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_email_2"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1","testCaseId":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_template_sms_1"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2","testCaseId":"Test Cases/Testing/2_Create, Import/3_Patterns/1_Templates/create_push_template_2"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast","testCaseId":"Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_email_broadcast"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_push_broadcast","testCaseId":"Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_push_broadcast"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_sms_broadcast","testCaseId":"Test Cases/Testing/2_Create, Import/4_Campaigns/Broadcasts/create_sms_broadcast"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_email","testCaseId":"Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_email"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_push","testCaseId":"Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_push"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_sms","testCaseId":"Test Cases/Testing/2_Create, Import/4_Campaigns/Regular/create_regular_sms"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel","testCaseId":"Test Cases/Testing/2_Create, Import/6_Pixels/create_pixel"}
+{"testCaseName":"Test Cases/Testing/2_Create, Import/7_Loyalty/create_loyality","testCaseId":"Test Cases/Testing/2_Create, Import/7_Loyalty/create_loyality"}

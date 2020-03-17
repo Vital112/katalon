@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="64.484" tests="4" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="4" failures="1" errors="0" time="64.484" timestamp="2020-01-17 15:50:14" hostname="vitaly - vitaly-rizaev" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/vitaly/Katalon Studio/katalon/Reports/20200117_155007/New Test Suite/20200117_155007"/>
+         <property name="logFiles" value="/home/vitaly/Katalon Studio/katalon/Reports/20200117_155007/New Test Suite/20200117_155007/execution0.log"/>
+         <property name="attachments" value="/home/vitaly/Katalon Studio/katalon/Reports/20200117_155007/New Test Suite/20200117_155007/1579265442788.png"/>
+         <property name="hostName" value="vitaly - vitaly-rizaev"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="1b42d711d28e0362225f88ee7808f564"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Profile Databases/Platform entry" time="8.119" classname="Test Cases/Profile Databases/Platform entry" status="PASSED">
+         <system-out><![CDATA[2020-01-17 15:50:14 - [TEST_CASE][PASSED] - Test Cases/Profile Databases/Platform entry: Test Cases/Profile Databases/Platform entry
+
+2020-01-17 15:50:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-17 15:50:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 15:50:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-17 15:50:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-17 15:50:17 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/admin/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fadmin%2F%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/admin/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fadmin%2F%3F' successfully
+
+2020-01-17 15:50:17 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/admin/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fadmin%2F%3F' successfully
+
+2020-01-17 15:50:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login required/input_Login_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login required/input_Login_username'
+
+2020-01-17 15:50:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login required/input_Login_username'
+
+2020-01-17 15:50:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login required/input_Login_password"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/Page_Login required/input_Login_password'
+
+2020-01-17 15:50:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login required/input_Login_password'
+
+2020-01-17 15:50:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login required/div_Login")): Object: 'Object Repository/Page_Login required/div_Login' is clicked on
+
+2020-01-17 15:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login required/div_Login' is clicked on
+
+2020-01-17 15:50:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Altkraft administrative panel/a_Accounts")): Object: 'Object Repository/Page_Altkraft administrative panel/a_Accounts' is clicked on
+
+2020-01-17 15:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Altkraft administrative panel/a_Accounts' is clicked on
+
+2020-01-17 15:50:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Altkraft administrative panel/i_true_bordered users blue icon")): Object: 'Object Repository/Page_Altkraft administrative panel/i_true_bordered users blue icon' is clicked on
+
+2020-01-17 15:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Altkraft administrative panel/i_true_bordered users blue icon' is clicked on
+
+2020-01-17 15:50:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Altkraft administrative panel/i_Thu 16 Jan 2020 132007 GMT_bordered rocke_dd872d")): Object: 'Object Repository/Page_Altkraft administrative panel/i_Thu 16 Jan 2020 132007 GMT_bordered rocke_dd872d' is clicked on
+
+2020-01-17 15:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Altkraft administrative panel/i_Thu 16 Jan 2020 132007 GMT_bordered rocke_dd872d' is clicked on
+
+2020-01-17 15:50:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Altkraft administrative panel/div_YES I WANT IT")): Object: 'Object Repository/Page_Altkraft administrative panel/div_YES I WANT IT' is clicked on
+
+2020-01-17 15:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Altkraft administrative panel/div_YES I WANT IT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile Databases/Creating a new profile databases" time="20.194" classname="Test Cases/Profile Databases/Creating a new profile databases" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Profile Databases/Creating a new profile databases FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-17 15:50:22 - [TEST_CASE][FAILED] - Test Cases/Profile Databases/Creating a new profile databases: Test Cases/Profile Databases/Creating a new profile databases FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-17 15:50:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-17 15:50:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-17 15:50:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 15:50:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-17 15:50:23 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 15:50:24 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 15:50:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/databases/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/databases/Page_/input__username'
+
+2020-01-17 15:50:25 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/databases/Page_/input__username'
+
+2020-01-17 15:50:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/databases/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/databases/Page_/input__password'
+
+2020-01-17 15:50:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/databases/Page_/input__password'
+
+2020-01-17 15:50:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/databases/Page_/div_")): Object: 'Object Repository/databases/Page_/div_' is clicked on
+
+2020-01-17 15:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/databases/Page_/div_' is clicked on
+
+2020-01-17 15:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/databases/Page_AK Dashboard/div_")): Object: 'Object Repository/databases/Page_AK Dashboard/div_' is clicked on
+
+2020-01-17 15:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/databases/Page_AK Dashboard/div_' is clicked on
+
+2020-01-17 15:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/databases/Page_AK Dashboard/a_")): Object: 'Object Repository/databases/Page_AK Dashboard/a_' is clicked on
+
+2020-01-17 15:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/databases/Page_AK Dashboard/a_' is clicked on
+
+2020-01-17 15:50:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/databases/Page_ -/span_")): Object: 'Object Repository/databases/Page_ -/span_' is clicked on
+
+2020-01-17 15:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/databases/Page_ -/span_' is clicked on
+
+2020-01-17 15:50:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/databases/Page_ -/label_    Email                        (ip _9acbb3")): Object: 'Object Repository/databases/Page_ -/label_    Email                        (ip _9acbb3' is clicked on
+
+2020-01-17 15:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/databases/Page_ -/label_    Email                        (ip _9acbb3' is clicked on
+
+2020-01-17 15:50:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/databases/Page_ -/input_  _subscribers_title"), "test"): Text 'test' is set on object 'Object Repository/databases/Page_ -/input_  _subscribers_title'
+
+2020-01-17 15:50:33 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/databases/Page_ -/input_  _subscribers_title'
+
+2020-01-17 15:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/databases/Page_ -/input_ _from_name"), "name"): Text 'name' is set on object 'Object Repository/databases/Page_ -/input_ _from_name'
+
+2020-01-17 15:50:33 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/databases/Page_ -/input_ _from_name'
+
+2020-01-17 15:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/databases/Page_ -/input_Email _from_email"), "example@example.com"): Text 'example@example.com' is set on object 'Object Repository/databases/Page_ -/input_Email _from_email'
+
+2020-01-17 15:50:34 - [MESSAGE][PASSED] - Text 'example@example.com' is set on object 'Object Repository/databases/Page_ -/input_Email _from_email'
+
+2020-01-17 15:50:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/databases/Page_ -/span_ (1)")): Object: 'Object Repository/databases/Page_ -/span_ (1)' is clicked on
+
+2020-01-17 15:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/databases/Page_ -/span_ (1)' is clicked on
+
+2020-01-17 15:50:35 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/databases/Page_ -/a_")): Unable to click on object 'Object Repository/databases/Page_ -/a_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579182170601.run(Script1579182170601.groovy:45)
+	... 13 more
+)
+
+2020-01-17 15:50:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/databases/Page_ -/a_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1579182170601.run(Script1579182170601.groovy:45)
+	... 13 more
+)
+[[ATTACHMENT|/home/vitaly/Katalon Studio/katalon/Reports/20200117_155007/New Test Suite/20200117_155007/1579265442788.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-17 15:50:22 - [TEST_CASE][FAILED] - Test Cases/Profile Databases/Creating a new profile databases: Test Cases/Profile Databases/Creating a new profile databases FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile Databases/Suppresses/Create a new stop list" time="27.909" classname="Test Cases/Profile Databases/Suppresses/Create a new stop list" status="PASSED">
+         <system-out><![CDATA[2020-01-17 15:50:43 - [TEST_CASE][PASSED] - Test Cases/Profile Databases/Suppresses/Create a new stop list: Test Cases/Profile Databases/Suppresses/Create a new stop list
+
+2020-01-17 15:50:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-17 15:50:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-17 15:50:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 15:50:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-17 15:50:44 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 15:50:44 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 15:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Suppresses/Page_/input__username'
+
+2020-01-17 15:50:45 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Suppresses/Page_/input__username'
+
+2020-01-17 15:50:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Suppresses/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Suppresses/Page_/input__password'
+
+2020-01-17 15:50:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Suppresses/Page_/input__password'
+
+2020-01-17 15:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_/div_")): Object: 'Object Repository/Suppresses/Page_/div_' is clicked on
+
+2020-01-17 15:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_/div_' is clicked on
+
+2020-01-17 15:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_AK Dashboard/i__database titleIcon icon")): Object: 'Object Repository/Suppresses/Page_AK Dashboard/i__database titleIcon icon' is clicked on
+
+2020-01-17 15:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_AK Dashboard/i__database titleIcon icon' is clicked on
+
+2020-01-17 15:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_AK Dashboard/a_-")): Object: 'Object Repository/Suppresses/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 15:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 15:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/i_-_plus icon")): Object: 'Object Repository/Suppresses/Page_ - -/i_-_plus icon' is clicked on
+
+2020-01-17 15:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/i_-_plus icon' is clicked on
+
+2020-01-17 15:50:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span_")): Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 15:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 15:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/span_")): Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 15:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 15:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/textarea_ -_descr"), "Описание стоп-списка"): Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 15:50:55 - [MESSAGE][PASSED] - Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 15:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf")): Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 15:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 15:50:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input_ _search"), "группа_1"): Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 15:50:56 - [MESSAGE][PASSED] - Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 15:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input__search"), "тег_1"): Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 15:50:57 - [MESSAGE][PASSED] - Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 15:50:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span_")): Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 15:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 15:50:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/span_")): Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 15:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 15:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/textarea_ -_descr"), "Описание стоп-списка"): Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 15:51:01 - [MESSAGE][PASSED] - Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 15:51:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf")): Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 15:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 15:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input_ _search"), "группа_1"): Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 15:51:02 - [MESSAGE][PASSED] - Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 15:51:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_1")): Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 15:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 15:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input__search"), "тег_1"): Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 15:51:04 - [MESSAGE][PASSED] - Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 15:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span_")): Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 15:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 15:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/span_")): Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 15:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 15:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/textarea_ -_descr"), "Описание стоп-списка"): Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 15:51:07 - [MESSAGE][PASSED] - Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 15:51:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf")): Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 15:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 15:51:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input_ _search"), "группа_1"): Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 15:51:08 - [MESSAGE][PASSED] - Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 15:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_1")): Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 15:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 15:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input__search"), "тег_1"): Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 15:51:09 - [MESSAGE][PASSED] - Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 15:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span__1")): Object: 'Object Repository/Suppresses/Page_ -  -/span__1' is clicked on
+
+2020-01-17 15:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span__1' is clicked on
+
+2020-01-17 15:51:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-17 15:51:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses" time="7.761" classname="Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses" status="PASSED">
+         <system-out><![CDATA[2020-01-17 15:51:10 - [TEST_CASE][PASSED] - Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses: Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses
+
+2020-01-17 15:51:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-17 15:51:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 15:51:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-17 15:51:11 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 15:51:12 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 15:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Page_/input__username'
+
+2020-01-17 15:51:12 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Page_/input__username'
+
+2020-01-17 15:51:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_/input__password'
+
+2020-01-17 15:51:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input__password'
+
+2020-01-17 15:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/div_")): Object: 'Object Repository/Page_/div_' is clicked on
+
+2020-01-17 15:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/div_' is clicked on
+
+2020-01-17 15:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AK Dashboard/i__dropdown icon")): Object: 'Object Repository/Page_AK Dashboard/i__dropdown icon' is clicked on
+
+2020-01-17 15:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AK Dashboard/i__dropdown icon' is clicked on
+
+2020-01-17 15:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AK Dashboard/a_-")): Object: 'Object Repository/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 15:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 15:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ - -/span_")): Object: 'Object Repository/Page_ - -/span_' is clicked on
+
+2020-01-17 15:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ - -/span_' is clicked on
+
+2020-01-17 15:51:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-17 15:51:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-17 15:50:14 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Profile Databases/Creating a new profile databases FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-01-17 15:50:14 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Profile Databases/Creating a new profile databases FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/databases/Page_ -/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Creating a new profile databases.run(Creating a new profile databases:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579265407584.run(TempTestSuite1579265407584.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'vitaly-rizaev', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_232'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /tmp/.com.google.Chrome.p3g3Tp}, goog:chromeOptions: {debuggerAddress: localhost:41489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b792302d8a20b647d5573a017350985c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

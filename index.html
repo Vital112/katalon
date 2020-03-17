@@ -1,0 +1,39 @@
+index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="/ak-push.js"></script>
+<link rel="manifest" href="/manifest.json"></link>
+
+
+
+
+
+
+
+
+
+    </head>
+<body> 
+
+<button id="mybutton">кнопка</button>
+<script>
+document.getElementById('mybutton').onclick = function() {
+	var akPush = new AKPush()
+	try {
+   		akPush.initSubscription() // Show push subscribe browser popup
+   		console.log("success")
+	} catch (e) {
+   		console.log(e);
+ 	}
+}
+</script>
+	
+<h1>firefox</h1>
+<p>I'm hosted with GitHub Pages.</p>
+	<!-- START OF ALTKRAFT PIXEL CODE !-->
+<a href="https://pxl.vitaly-rizaev.dev.altkraft.com:443/pixel?k=5dDgEZcMjS4C4aoZnA8RMLRnbH8ucqFhtN78dV4WAue7NQhmtH9Nzt9uYPvGi3iSxDZYfDrY7cHVMn3ZJBBBE3PU&s=f983547ad2d56b0a&redirect_url=&goals=&value=0">Click!</a>
+<!-- END OF ALTKRAFT PIXEL CODE !-->
+  
+</body>
+</html>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="39.516" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="39.516" timestamp="2020-01-17 12:43:22" hostname="vitaly - vitaly-rizaev" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/vitaly/Katalon Studio/katalon/Reports/20200117_124316/New Test Suite/20200117_124316"/>
+         <property name="logFiles" value="/home/vitaly/Katalon Studio/katalon/Reports/20200117_124316/New Test Suite/20200117_124316/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vitaly - vitaly-rizaev"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="a3eba1d5ed91f4b672cb59642097c3ef"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses" time="10.857" classname="Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses" status="PASSED">
+         <system-out><![CDATA[2020-01-17 12:43:22 - [TEST_CASE][PASSED] - Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses: Test Cases/Profile Databases/Suppresses/Go to the page for creating a new suppresses
+
+2020-01-17 12:43:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-17 12:43:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 12:43:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-17 12:43:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-17 12:43:25 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 12:43:26 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 12:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Page_/input__username'
+
+2020-01-17 12:43:27 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Page_/input__username'
+
+2020-01-17 12:43:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_/input__password'
+
+2020-01-17 12:43:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input__password'
+
+2020-01-17 12:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/div_")): Object: 'Object Repository/Page_/div_' is clicked on
+
+2020-01-17 12:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/div_' is clicked on
+
+2020-01-17 12:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AK Dashboard/i__dropdown icon")): Object: 'Object Repository/Page_AK Dashboard/i__dropdown icon' is clicked on
+
+2020-01-17 12:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AK Dashboard/i__dropdown icon' is clicked on
+
+2020-01-17 12:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_AK Dashboard/a_-")): Object: 'Object Repository/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 12:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 12:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ - -/span_")): Object: 'Object Repository/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-17 12:43:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile Databases/Suppresses/Create a new stop list" time="28.172" classname="Test Cases/Profile Databases/Suppresses/Create a new stop list" status="PASSED">
+         <system-out><![CDATA[2020-01-17 12:43:33 - [TEST_CASE][PASSED] - Test Cases/Profile Databases/Suppresses/Create a new stop list: Test Cases/Profile Databases/Suppresses/Create a new stop list
+
+2020-01-17 12:43:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-17 12:43:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-17 12:43:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-17 12:43:34 - [TEST_STEP][PASSED] - navigateToUrl("https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F"): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 12:43:34 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/login?next=http%3A%2F%2Fvitaly-rizaev.dev.altkraft.com%2Fhome%3F' successfully
+
+2020-01-17 12:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_/input__username"), "vitaly@vitaly"): Text 'vitaly@vitaly' is set on object 'Object Repository/Suppresses/Page_/input__username'
+
+2020-01-17 12:43:35 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Suppresses/Page_/input__username'
+
+2020-01-17 12:43:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Suppresses/Page_/input__password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Suppresses/Page_/input__password'
+
+2020-01-17 12:43:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Suppresses/Page_/input__password'
+
+2020-01-17 12:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_/div_")): Object: 'Object Repository/Suppresses/Page_/div_' is clicked on
+
+2020-01-17 12:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_/div_' is clicked on
+
+2020-01-17 12:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_AK Dashboard/i__database titleIcon icon")): Object: 'Object Repository/Suppresses/Page_AK Dashboard/i__database titleIcon icon' is clicked on
+
+2020-01-17 12:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_AK Dashboard/i__database titleIcon icon' is clicked on
+
+2020-01-17 12:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_AK Dashboard/a_-")): Object: 'Object Repository/Suppresses/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 12:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_AK Dashboard/a_-' is clicked on
+
+2020-01-17 12:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/i_-_plus icon")): Object: 'Object Repository/Suppresses/Page_ - -/i_-_plus icon' is clicked on
+
+2020-01-17 12:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/i_-_plus icon' is clicked on
+
+2020-01-17 12:43:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span_")): Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 12:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 12:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/span_")): Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/textarea_ -_descr"), "Описание стоп-списка"): Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 12:43:45 - [MESSAGE][PASSED] - Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 12:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf")): Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 12:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 12:43:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input_ _search"), "группа_1"): Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 12:43:46 - [MESSAGE][PASSED] - Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 12:43:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input__search"), "тег_1"): Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 12:43:47 - [MESSAGE][PASSED] - Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 12:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span_")): Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 12:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 12:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/span_")): Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/textarea_ -_descr"), "Описание стоп-списка"): Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 12:43:51 - [MESSAGE][PASSED] - Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 12:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf")): Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 12:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 12:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input_ _search"), "группа_1"): Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 12:43:52 - [MESSAGE][PASSED] - Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 12:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_1")): Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 12:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 12:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input__search"), "тег_1"): Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 12:43:53 - [MESSAGE][PASSED] - Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 12:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span_")): Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 12:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span_' is clicked on
+
+2020-01-17 12:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ - -/span_")): Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ - -/span_' is clicked on
+
+2020-01-17 12:43:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/textarea_ -_descr"), "Описание стоп-списка"): Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 12:43:58 - [MESSAGE][PASSED] - Text 'Описание стоп-списка' is set on object 'Object Repository/Suppresses/Page_ -  -/textarea_ -_descr'
+
+2020-01-17 12:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf")): Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 12:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_12dfrsfffddfdsf' is clicked on
+
+2020-01-17 12:43:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input_ _search"), "группа_1"): Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 12:43:59 - [MESSAGE][PASSED] - Text 'группа_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input_ _search'
+
+2020-01-17 12:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/div_1")): Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 12:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/div_1' is clicked on
+
+2020-01-17 12:43:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Suppresses/Page_ -  -/input__search"), "тег_1"): Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 12:44:00 - [MESSAGE][PASSED] - Text 'тег_1' is set on object 'Object Repository/Suppresses/Page_ -  -/input__search'
+
+2020-01-17 12:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Suppresses/Page_ -  -/span__1")): Object: 'Object Repository/Suppresses/Page_ -  -/span__1' is clicked on
+
+2020-01-17 12:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Suppresses/Page_ -  -/span__1' is clicked on
+
+2020-01-17 12:44:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-17 12:44:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-17 12:43:22 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Profile Databases/Suppresses/Create a new stop list]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

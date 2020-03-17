@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (1)" time="59.988" tests="3" failures="0" errors="0">
+   <testsuite name="New Test Suite (1)" tests="3" failures="0" errors="0" time="59.988" timestamp="2020-02-12 16:52:22" hostname="vitaly - laptop-vitaly-rizaev.lan" id="Test Suites/New Test Suite (1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/vitaly/Katalon Studio/katalon/Reports/20200212_165215/New Test Suite (1)/20200212_165215"/>
+         <property name="logFiles" value="/home/vitaly/Katalon Studio/katalon/Reports/20200212_165215/New Test Suite (1)/20200212_165215/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vitaly - laptop-vitaly-rizaev.lan"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 79.0.3945.117"/>
+         <property name="hostAddress" value="192.168.0.39"/>
+         <property name="sessionId" value="26c0d3f8d787cc0a92e907541f756ae3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Create, Import/1_Resource/Create email resource" time="22.165" classname="Test Cases/Create, Import/1_Resource/Create email resource" status="PASSED">
+         <system-out><![CDATA[2020-02-12 16:52:22 - [TEST_CASE][PASSED] - Test Cases/Create, Import/1_Resource/Create email resource: Test Cases/Create, Import/1_Resource/Create email resource
+
+2020-02-12 16:52:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-12 16:52:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-12 16:52:23 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-12 16:52:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-12 16:52:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-12 16:52:25 - [TEST_STEP][PASSED] - navigateToUrl(Domain): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-12 16:52:25 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-12 16:52:25 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_/input__username"), Login): Text 'vitaly@vitaly' is set on object 'Object Repository/Resource/Resource_email/Page_/input__username'
+
+2020-02-12 16:52:26 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Resource/Resource_email/Page_/input__username'
+
+2020-02-12 16:52:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Resource/Resource_email/Page_/input__password"), Password): Text ****** has been set on object 'Object Repository/Resource/Resource_email/Page_/input__password'
+
+2020-02-12 16:52:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Resource/Resource_email/Page_/input__password'
+
+2020-02-12 16:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_/div_")): Object: 'Object Repository/Resource/Resource_email/Page_/div_' is clicked on
+
+2020-02-12 16:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_/div_' is clicked on
+
+2020-02-12 16:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_AK Dashboard/a_")): Object: 'Object Repository/Resource/Resource_email/Page_AK Dashboard/a_' is clicked on
+
+2020-02-12 16:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_AK Dashboard/a_' is clicked on
+
+2020-02-12 16:52:32 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_/a_")): Object: 'Object Repository/Resource/Resource_email/Page_/a_' is clicked on
+
+2020-02-12 16:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_/a_' is clicked on
+
+2020-02-12 16:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_/div_Email")): Object: 'Object Repository/Resource/Resource_email/Page_/div_Email' is clicked on
+
+2020-02-12 16:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_/div_Email' is clicked on
+
+2020-02-12 16:52:35 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_ -/input_ _name"), "Email_resource"): Text 'Email_resource' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_ _name'
+
+2020-02-12 16:52:37 - [MESSAGE][PASSED] - Text 'Email_resource' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_ _name'
+
+2020-02-12 16:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_ -/div_New Martian databaseDatabase_1New solar_05144d")): Object: 'Object Repository/Resource/Resource_email/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-12 16:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-12 16:52:37 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_ -/input_ _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_ _search'
+
+2020-02-12 16:52:38 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_ _search'
+
+2020-02-12 16:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_ -/div_123 - Database_1")): Object: 'Object Repository/Resource/Resource_email/Page_ -/div_123 - Database_1' is clicked on
+
+2020-02-12 16:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_ -/div_123 - Database_1' is clicked on
+
+2020-02-12 16:52:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Resource/Resource_email/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc"), "123", true): All options with value '123' are selected in object 'Object Repository/Resource/Resource_email/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc'  using regular expression
+
+2020-02-12 16:52:40 - [MESSAGE][PASSED] - All options with value '123' are selected in object 'Object Repository/Resource/Resource_email/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc'  using regular expression
+
+2020-02-12 16:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_ -/div_                                       _294fb4")): Object: 'Object Repository/Resource/Resource_email/Page_ -/div_                                       _294fb4' is clicked on
+
+2020-02-12 16:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_ -/div_                                       _294fb4' is clicked on
+
+2020-02-12 16:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_ -/input_URL -   _url"), "http://example.com"): Text 'http://example.com' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_URL -   _url'
+
+2020-02-12 16:52:42 - [MESSAGE][PASSED] - Text 'http://example.com' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_URL -   _url'
+
+2020-02-12 16:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_ -/input_   _trk_domain"), "trk.example.com"): Text 'trk.example.com' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_   _trk_domain'
+
+2020-02-12 16:52:42 - [MESSAGE][PASSED] - Text 'trk.example.com' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_   _trk_domain'
+
+2020-02-12 16:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_ -/input_ _email_optionsfrom_name"), "Name"): Text 'Name' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_ _email_optionsfrom_name'
+
+2020-02-12 16:52:43 - [MESSAGE][PASSED] - Text 'Name' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_ _email_optionsfrom_name'
+
+2020-02-12 16:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_email/Page_ -/input_Email _email_optionsfrom_email"), "example@example.com"): Text 'example@example.com' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_Email _email_optionsfrom_email'
+
+2020-02-12 16:52:44 - [MESSAGE][PASSED] - Text 'example@example.com' is set on object 'Object Repository/Resource/Resource_email/Page_ -/input_Email _email_optionsfrom_email'
+
+2020-02-12 16:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_email/Page_ -/button_")): Object: 'Object Repository/Resource/Resource_email/Page_ -/button_' is clicked on
+
+2020-02-12 16:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_email/Page_ -/button_' is clicked on
+
+2020-02-12 16:52:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-12 16:52:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create, Import/1_Resource/Create push resource" time="18.48" classname="Test Cases/Create, Import/1_Resource/Create push resource" status="PASSED">
+         <system-out><![CDATA[2020-02-12 16:52:44 - [TEST_CASE][PASSED] - Test Cases/Create, Import/1_Resource/Create push resource: Test Cases/Create, Import/1_Resource/Create push resource
+
+2020-02-12 16:52:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-12 16:52:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-12 16:52:44 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-12 16:52:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-12 16:52:45 - [TEST_STEP][PASSED] - navigateToUrl(Domain): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-12 16:52:45 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-12 16:52:45 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_push/Page_/input__username"), Login): Text 'vitaly@vitaly' is set on object 'Object Repository/Resource/Resource_push/Page_/input__username'
+
+2020-02-12 16:52:46 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Resource/Resource_push/Page_/input__username'
+
+2020-02-12 16:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_/div_                                       _a545a9")): Object: 'Object Repository/Resource/Resource_push/Page_/div_                                       _a545a9' is clicked on
+
+2020-02-12 16:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_/div_                                       _a545a9' is clicked on
+
+2020-02-12 16:52:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Resource/Resource_push/Page_/input__password"), Password): Text ****** has been set on object 'Object Repository/Resource/Resource_push/Page_/input__password'
+
+2020-02-12 16:52:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Resource/Resource_push/Page_/input__password'
+
+2020-02-12 16:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_/div_")): Object: 'Object Repository/Resource/Resource_push/Page_/div_' is clicked on
+
+2020-02-12 16:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_/div_' is clicked on
+
+2020-02-12 16:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_AK Dashboard/a_")): Object: 'Object Repository/Resource/Resource_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-12 16:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_AK Dashboard/a_' is clicked on
+
+2020-02-12 16:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_/a_")): Object: 'Object Repository/Resource/Resource_push/Page_/a_' is clicked on
+
+2020-02-12 16:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_/a_' is clicked on
+
+2020-02-12 16:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_/div_Push")): Object: 'Object Repository/Resource/Resource_push/Page_/div_Push' is clicked on
+
+2020-02-12 16:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_/div_Push' is clicked on
+
+2020-02-12 16:52:55 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_push/Page_ -/input_ _name"), "Push_resource"): Text 'Push_resource' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_ _name'
+
+2020-02-12 16:52:56 - [MESSAGE][PASSED] - Text 'Push_resource' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_ _name'
+
+2020-02-12 16:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_ -/div_New Martian databaseDatabase_1New solar_05144d")): Object: 'Object Repository/Resource/Resource_push/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-12 16:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-12 16:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_push/Page_ -/input_ _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_ _search'
+
+2020-02-12 16:52:58 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_ _search'
+
+2020-02-12 16:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_ -/div_123 - Database_1")): Object: 'Object Repository/Resource/Resource_push/Page_ -/div_123 - Database_1' is clicked on
+
+2020-02-12 16:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_ -/div_123 - Database_1' is clicked on
+
+2020-02-12 16:52:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Resource/Resource_push/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc"), "123", true): All options with value '123' are selected in object 'Object Repository/Resource/Resource_push/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc'  using regular expression
+
+2020-02-12 16:53:00 - [MESSAGE][PASSED] - All options with value '123' are selected in object 'Object Repository/Resource/Resource_push/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc'  using regular expression
+
+2020-02-12 16:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_ -/div_                                       _294fb4")): Object: 'Object Repository/Resource/Resource_push/Page_ -/div_                                       _294fb4' is clicked on
+
+2020-02-12 16:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_ -/div_                                       _294fb4' is clicked on
+
+2020-02-12 16:53:01 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_push/Page_ -/input_URL -   _url"), "http://example.com"): Text 'http://example.com' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_URL -   _url'
+
+2020-02-12 16:53:02 - [MESSAGE][PASSED] - Text 'http://example.com' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_URL -   _url'
+
+2020-02-12 16:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_push/Page_ -/input_   _trk_domain"), "trk.example.com"): Text 'trk.example.com' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_   _trk_domain'
+
+2020-02-12 16:53:02 - [MESSAGE][PASSED] - Text 'trk.example.com' is set on object 'Object Repository/Resource/Resource_push/Page_ -/input_   _trk_domain'
+
+2020-02-12 16:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_push/Page_ -/button_")): Object: 'Object Repository/Resource/Resource_push/Page_ -/button_' is clicked on
+
+2020-02-12 16:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_push/Page_ -/button_' is clicked on
+
+2020-02-12 16:53:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-12 16:53:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create, Import/1_Resource/Create SMS resource" time="18.908" classname="Test Cases/Create, Import/1_Resource/Create SMS resource" status="PASSED">
+         <system-out><![CDATA[2020-02-12 16:53:03 - [TEST_CASE][PASSED] - Test Cases/Create, Import/1_Resource/Create SMS resource: Test Cases/Create, Import/1_Resource/Create SMS resource
+
+2020-02-12 16:53:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-12 16:53:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-12 16:53:03 - [MESSAGE][INFO] - User set preference: ['chrome_profile', '{browser.download.folderList=2.0, browser.download.manager.showWhenStarting=false, browser.helperApps.neverAsk.saveToDisk=text/csv}']
+
+2020-02-12 16:53:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-12 16:53:03 - [TEST_STEP][PASSED] - navigateToUrl(Domain): Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-12 16:53:04 - [MESSAGE][PASSED] - Navigate to 'https://vitaly-rizaev.dev.altkraft.com/home' successfully
+
+2020-02-12 16:53:04 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_sms/Page_/input__username"), Login): Text 'vitaly@vitaly' is set on object 'Object Repository/Resource/Resource_sms/Page_/input__username'
+
+2020-02-12 16:53:04 - [MESSAGE][PASSED] - Text 'vitaly@vitaly' is set on object 'Object Repository/Resource/Resource_sms/Page_/input__username'
+
+2020-02-12 16:53:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Resource/Resource_sms/Page_/input__password"), Password): Text ****** has been set on object 'Object Repository/Resource/Resource_sms/Page_/input__password'
+
+2020-02-12 16:53:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Resource/Resource_sms/Page_/input__password'
+
+2020-02-12 16:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_/div_")): Object: 'Object Repository/Resource/Resource_sms/Page_/div_' is clicked on
+
+2020-02-12 16:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_/div_' is clicked on
+
+2020-02-12 16:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_AK Dashboard/a_")): Object: 'Object Repository/Resource/Resource_sms/Page_AK Dashboard/a_' is clicked on
+
+2020-02-12 16:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_AK Dashboard/a_' is clicked on
+
+2020-02-12 16:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_/a_")): Object: 'Object Repository/Resource/Resource_sms/Page_/a_' is clicked on
+
+2020-02-12 16:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_/a_' is clicked on
+
+2020-02-12 16:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_/div_SMS")): Object: 'Object Repository/Resource/Resource_sms/Page_/div_SMS' is clicked on
+
+2020-02-12 16:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_/div_SMS' is clicked on
+
+2020-02-12 16:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_sms/Page_ -/input_ _name"), "SMS_resource"): Text 'SMS_resource' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_ _name'
+
+2020-02-12 16:53:15 - [MESSAGE][PASSED] - Text 'SMS_resource' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_ _name'
+
+2020-02-12 16:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_ -/div_New Martian databaseDatabase_1New solar_05144d")): Object: 'Object Repository/Resource/Resource_sms/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-12 16:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_ -/div_New Martian databaseDatabase_1New solar_05144d' is clicked on
+
+2020-02-12 16:53:15 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_sms/Page_ -/input_ _search"), "Database_1"): Text 'Database_1' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_ _search'
+
+2020-02-12 16:53:16 - [MESSAGE][PASSED] - Text 'Database_1' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_ _search'
+
+2020-02-12 16:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_ -/div_123 - Database_1")): Object: 'Object Repository/Resource/Resource_sms/Page_ -/div_123 - Database_1' is clicked on
+
+2020-02-12 16:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_ -/div_123 - Database_1' is clicked on
+
+2020-02-12 16:53:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Resource/Resource_sms/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc"), "123", true): All options with value '123' are selected in object 'Object Repository/Resource/Resource_sms/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc'  using regular expression
+
+2020-02-12 16:53:19 - [MESSAGE][PASSED] - All options with value '123' are selected in object 'Object Repository/Resource/Resource_sms/Page_ -/select_New Martian databaseDatabase_1New so_07f9dc'  using regular expression
+
+2020-02-12 16:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_ -/div_                                       _294fb4")): Object: 'Object Repository/Resource/Resource_sms/Page_ -/div_                                       _294fb4' is clicked on
+
+2020-02-12 16:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_ -/div_                                       _294fb4' is clicked on
+
+2020-02-12 16:53:19 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_sms/Page_ -/input_URL -   _url"), "http://example.com"): Text 'http://example.com' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_URL -   _url'
+
+2020-02-12 16:53:20 - [MESSAGE][PASSED] - Text 'http://example.com' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_URL -   _url'
+
+2020-02-12 16:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_sms/Page_ -/input_   _trk_domain"), "trk.example.com"): Text 'trk.example.com' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_   _trk_domain'
+
+2020-02-12 16:53:21 - [MESSAGE][PASSED] - Text 'trk.example.com' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_   _trk_domain'
+
+2020-02-12 16:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("Resource/Resource_sms/Page_ -/input_Caller ID_sms_optionscaller_id"), "12345"): Text '12345' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_Caller ID_sms_optionscaller_id'
+
+2020-02-12 16:53:21 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Resource/Resource_sms/Page_ -/input_Caller ID_sms_optionscaller_id'
+
+2020-02-12 16:53:21 - [TEST_STEP][PASSED] - click(findTestObject("Resource/Resource_sms/Page_ -/button_")): Object: 'Object Repository/Resource/Resource_sms/Page_ -/button_' is clicked on
+
+2020-02-12 16:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Resource/Resource_sms/Page_ -/button_' is clicked on
+
+2020-02-12 16:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-12 16:53:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-12 16:52:22 - [TEST_SUITE][PASSED] - New Test Suite (1): Test Cases/Create, Import/1_Resource/Create SMS resource]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
